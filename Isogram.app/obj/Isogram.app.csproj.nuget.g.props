@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\eugenia.musat\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)blazortime\1.0.3\buildTransitive\BlazorTime.props" Condition="Exists('$(NuGetPackageRoot)blazortime\1.0.3\buildTransitive\BlazorTime.props')" />
+  </ImportGroup>
 </Project>

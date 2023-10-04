@@ -20,16 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/EUGENIA/emusat2021/Exercises/Isogram/Isogram.app/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/EUGENIA/emusat2021/Exercises/Isogram/Isogram.app/Pages/CheckIsogram.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tJc29ncmFtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/EUGENIA/emusat2021/Exercises/Isogram/Isogram.app/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/EUGENIA/emusat2021/Exercises/Isogram/Isogram.app/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/EUGENIA/emusat2021/Exercises/Isogram/Isogram.app/_Imports.razor]

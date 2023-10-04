@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G1wvoh1yfVCqw8IG2NW7sNX9w9tNCgED8ZqVhPiz0kU=",
+  "Hash": "DR1C2A0a/3R4Nt7O6ixnBCfuMKzqz50JN8t6N+1NhRA=",
   "Source": "Isogram.app",
   "BasePath": "_content/Isogram.app",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\eugenia.musat\\.nuget\\packages\\blazortime\\1.0.3\\staticwebassets\\blazorTime.js",
+      "SourceId": "BlazorTime",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\eugenia.musat\\.nuget\\packages\\blazortime\\1.0.3\\staticwebassets\\",
+      "BasePath": "_content/BlazorTime",
+      "RelativePath": "blazorTime.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\eugenia.musat\\.nuget\\packages\\blazortime\\1.0.3\\staticwebassets\\blazorTime.js"
     }
   ]
 }

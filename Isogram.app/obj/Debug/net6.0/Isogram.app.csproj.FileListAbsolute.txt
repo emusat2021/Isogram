@@ -30,3 +30,6 @@ C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\obj\Debug\net6.0\refint\Isog
 C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\obj\Debug\net6.0\Isogram.app.pdb
 C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\obj\Debug\net6.0\Isogram.app.genruntimeconfig.cache
 C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\obj\Debug\net6.0\ref\Isogram.app.dll
+C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\bin\Debug\net6.0\BlazorTime.dll
+C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\bin\Debug\net6.0\Npgsql.dll
+C:\EUGENIA\emusat2021\Exercises\Isogram\Isogram.app\obj\Debug\net6.0\Isogram.app.csproj.CopyComplete
