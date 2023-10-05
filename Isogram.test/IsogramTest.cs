@@ -2,7 +2,7 @@ using Isogram.app.Models;
 
 namespace Isogram.app;
 
-public class UnitTest1
+public class IsogramTest
 {
     [Fact]
     public void Shoul_return_true_string_isogram()
