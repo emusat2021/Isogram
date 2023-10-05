@@ -20,5 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-
+  <ItemGroup>
+	  <ProjectReference Include="..\Isogram.app\Isogram.app.csproj"/>
+  </ItemGroup>
 </Project>
