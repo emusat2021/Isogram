@@ -1,62 +1,40 @@
 ﻿@page "/checkIsogram"
-@using System;
-@using System.Collections.Generic;
-@using System.Linq;
-@using System.Text;
+@using Isogram.app.Models;
+
+
 
 <PageTitle>Counter</PageTitle>
 
 <h1>Check here if a word is isogram</h1>
 
 
-
+<div class="form-group">
   <label for="AddWord">Write your word here:</label>
   <input type="text" id="AddWord" name="AddWord" @bind="word"><br><br>
   <input class="btn btn-outline-success"  @onclick=@(_ =>RepetitiveChar(word)) value="Click here to check">
-  
-  @if(answerYes!="")
+</div>
+<div>
+  @if(@result!="")
   {
     <div>
-      <span class="badge bg-success text-light" style="font-size: 150%"> @answerYes</span>
+        <span class="badge bg-warning text-dark" style="font-size: 150%"> @result</span>
     </div>
   }
-  else
-  {
-    <div>
-        <span class="badge bg-warning text-dark"> @answerNo</span>
-    </div>
-  }
+</div>
   <label for="AddWord">Please press F5 to reload for new word 😀</label>
 
 
 
 @code {
 
-  private string word;
-  string answerYes = "";
-  string answerNo = "";
-
+  public string word;
+  public string result;
+  public RepetitiveCharModel model = new();
 
   public void RepetitiveChar(string word)
   {
-    List<char> mylist = new();
-    foreach(char c in word)
-    {
-      if(char.IsLetter(c))
-      {
-        mylist.Add(c);                          
-      }
-    }
-    IEnumerable<char> distinctChar = mylist.Distinct();
-
-    if(distinctChar.Count() == mylist.Count())
-    {
-      answerYes = "Isogram";
-    }
-
-    answerNo = "NOIsogram";           
-  }               
-
- 
-            
+    result = model.FindIfIsogram(word);
+    word = "";
+  }
+    
 }
