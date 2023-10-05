@@ -1,3 +1,5 @@
+using Isogram.app.Models;
+
 namespace Isogram.app;
 
 public class UnitTest1
@@ -5,9 +7,8 @@ public class UnitTest1
     [Fact]
     public void Test1()
     {
-        var expected = "Isogram";
-        var actual = RepetitiveChar("abcd");
+        var repetitiveCharModel = new RepetitiveCharModel();
 
-        Assert.Equal(expected, actual);
+        Assert.Equal("Isogra", repetitiveCharModel.Test("abcd"));
     }
 }
