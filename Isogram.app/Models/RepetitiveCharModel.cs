@@ -8,6 +8,7 @@ namespace Isogram.app.Models
         
         public string FindIfIsogram(string word)
         {
+            word = word.ToLower();
             List<char> mylist = new();
             foreach(char c in word)
             {
