@@ -1,6 +1,6 @@
-namespace Isogram.app.Models
+namespace Isogram.app.Services
 {
-    public class RepetitiveCharModel
+    public class RepetitiveCharService
     {
         public string answerYes = "Isogram";
         public string answerNo = "Not a Isogram";

@@ -1,5 +1,5 @@
 ﻿@page "/checkIsogram"
-@using Isogram.app.Models;
+@using Isogram.app.Services;
 
 
 
@@ -29,11 +29,11 @@
 
   public string word;
   public string result;
-  public RepetitiveCharModel model = new();
+  public RepetitiveCharService service = new();
 
   public void RepetitiveChar(string word)
   {
-    result = model.FindIfIsogram(word);
+    result = service.FindIfIsogram(word);
     word = "";
   }
     

@@ -1,4 +1,4 @@
-using Isogram.app.Models;
+using Isogram.app.Services;
 
 namespace Isogram.app;
 
@@ -9,8 +9,8 @@ public class IsogramTest
     {
 
         string input = "abcd";
-        var repetitiveCharModel = new RepetitiveCharModel();
-        var actual = repetitiveCharModel.FindIfIsogram(input);
+        var repetitiveCharService = new RepetitiveCharService();
+        var actual = repetitiveCharService.FindIfIsogram(input);
 
         Assert.Equal("Isogram", actual);
     }
@@ -19,8 +19,8 @@ public class IsogramTest
     {
 
         string input = "abcddcc";
-        var repetitiveCharModel = new RepetitiveCharModel();
-        var actual = repetitiveCharModel.FindIfIsogram(input);
+        var repetitiveCharService = new RepetitiveCharService();
+        var actual = repetitiveCharService.FindIfIsogram(input);
 
         Assert.Equal("NoIsogram", actual);
     }
